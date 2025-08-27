@@ -1,0 +1,7 @@
+board:
+  name: master_tailsense
+  vendor: tailsense
+  socs:
+  - name: nrf9161
+    variants:
+    - name: ns
