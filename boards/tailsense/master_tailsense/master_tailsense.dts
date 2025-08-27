@@ -4,6 +4,9 @@
 #include "master_tailsense-partitioning.dtsi"
 
 / {
+	model = "tailsense";
+	compatible = "tailsense,master_tailsense";
+
 	chosen {
 		zephyr,sram = &sram0_s;
 		zephyr,flash = &flash0;
